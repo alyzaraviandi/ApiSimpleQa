@@ -57,12 +57,11 @@ Some tests are marked with `@pytest.mark.xfail` due to known issues in the RESTf
 - Permits invalid or malformed date values.
 - Returns `200 OK` instead of appropriate error codes (e.g., `401`, `400`, `500`).
 
-## 🚀 Setup Instructions
+## 🚀 Setup & Usage Instructions
 
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd restful-booker-qa
    ```
 2. Install dependencies:
    ```bash
@@ -70,24 +69,8 @@ Some tests are marked with `@pytest.mark.xfail` due to known issues in the RESTf
    ```
 3. Run tests:
    ```bash
-   pytest tests/ --log-cli-level=INFO
+   pytest -v
    ```
-
-## 📖 Usage
-
-Execute tests with pytest to validate the RESTful Booker API:
-```bash
-pytest tests/test_booking.py -v
-```
-Logs provide detailed output for debugging, including request params, status codes, and response bodies.
-
-## 🤝 Contributing
-
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature-name`).
-3. Commit changes (`git commit -m 'Add feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Open a pull request.
 
 ## 📜 License
 
