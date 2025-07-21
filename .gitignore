@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# Test & coverage
+.pytest_cache/
+*.log
+logs/
+reports/
+
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Report output
+structure.txt
+report.html
+
+# Test runner temp files
+*.tmp
+*.temp
+tests/tempCodeRunnerFile.py
